@@ -14,7 +14,7 @@ def header(details=True) -> rx.Component:
         rx.hstack(
             
             rx.avatar(
-                    name="Julio. César Quiña",
+                    name="Esteban Quiña",
                     size=Spacing.MEDIUM_BIG.value,
                     src="/creyenteLogo.jpg",
                     radius="full",
@@ -29,7 +29,7 @@ def header(details=True) -> rx.Component:
                     size=Spacing.BIG.value
                 ),
                 rx.text(
-                    "J. César. & Hijos",
+                    "Paginas web y aplicaciones",
                     margin_top=Size.ZERO.value,
                     color=Color.PRIMARY.value
                 ),
