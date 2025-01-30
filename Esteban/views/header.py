@@ -25,7 +25,7 @@ def header(details=True) -> rx.Component:
                 ),
             rx.vstack(
                 rx.heading(
-                    "CREYENTE",
+                    "ESTEBAN QUIÑA",
                     size=Spacing.BIG.value
                 ),
                 rx.text(
