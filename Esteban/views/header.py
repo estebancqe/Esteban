@@ -14,7 +14,7 @@ def header(details=True) -> rx.Component:
         rx.hstack(
             
             rx.avatar(
-                    name="Esteban Quiña",
+name="Esteban Quiña",
                     size=Spacing.MEDIUM_BIG.value,
                     src="/creyenteLogo.jpg",
                     radius="full",
