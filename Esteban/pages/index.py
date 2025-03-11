@@ -7,6 +7,9 @@ from Esteban.views.header import header
 from Esteban.views.index_links import index_links
 from Esteban.views.sponsors import sponsors
 from Esteban.style.style import Size
+from Esteban.components.link_button import link_button
+from Esteban.routes import Route
+from Esteban.style.style import Color
 # from Esteban.state.PageState import PageState
 
 
@@ -23,6 +26,14 @@ def index() -> rx.Component:
         navbar(),
         rx.center(
             rx.vstack(
+                link_button(
+                    "Swiper",
+                    "Carrusel de Imágenes",
+                    "/icons/book-solid.svg",
+                    Route.PRUEBA.value,
+                    False,
+                    Color.CONTENT.value
+                ),
                 header(),
                 index_links(   
                 ),

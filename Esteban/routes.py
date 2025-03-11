@@ -5,3 +5,4 @@ class Route(Enum):
     INDEX = "/"
     COURSES = "/cursos"
     COTIZAR = "/cotizar"
+    PRUEBA = "/prueba"

@@ -4,6 +4,7 @@ import Esteban.style.style as styles
 from Esteban.pages.index import index
 from Esteban.pages.courses import courses
 from Esteban.pages.cotizar import cotizar
+from Esteban.pages.prueba import prueba
 # from Esteban.api.api import repo, live, featured,api_Muebles,api_Modelos
 
 app = rx.App(
