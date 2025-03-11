@@ -1,5 +1,6 @@
 import reflex as rx
 import Esteban.utils as utils
+from Esteban.routes import Route
 import Esteban.style.style as styles
 from Esteban.components.navbar import navbar
 from Esteban.components.footer import footer
@@ -14,6 +15,7 @@ from Esteban.swiper.carrusel_tailwind import carrusel_tailwind
 
 
 @rx.page(
+    route=Route.PRUEBA.value,
     title=utils.index_title,
     description=utils.index_description,
     image=utils.preview,
