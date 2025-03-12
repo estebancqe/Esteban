@@ -4,9 +4,6 @@ from Esteban.routes import Route
 import Esteban.style.style as styles
 from Esteban.components.navbar import navbar
 from Esteban.components.footer import footer
-from Esteban.views.header import header
-from Esteban.views.index_links import index_links
-from Esteban.views.sponsors import sponsors
 from Esteban.style.style import Size
 from Esteban.swiper.carousel_container import carousel_container
 from Esteban.swiper.swiper import swiper_component
@@ -51,7 +48,7 @@ def prueba() -> rx.Component:
                     spacing="4",
                     padding="4",
                 ),
-                max_width=styles.MAX_WIDTH,
+                max_width="100%",
                 width="100%",
                 margin_y=Size.BIG.value,
                 padding=Size.BIG.value

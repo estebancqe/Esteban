@@ -5,8 +5,8 @@ def carousel_container():
     return rx.vstack(
         rx.image(
             src=CarouselState.images[CarouselState.current_image],
-            width="100%",
-            height="auto",
+            width="auto",
+            height="600px",
         ),
         rx.hstack(
             rx.button(
@@ -19,9 +19,12 @@ def carousel_container():
                 on_click=CarouselState.next_image,
                 color_scheme="gray", 
             ),
-            spacing="3",
-            justify="end",
+            spacing="1",
+            justify="center",
+            align="center",
         ),
+        padding="4",
         width="100%",
         spacing="4",
+        align="center",
     )

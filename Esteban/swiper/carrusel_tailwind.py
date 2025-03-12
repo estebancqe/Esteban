@@ -34,10 +34,10 @@ def carrusel_tailwind():
                         rx.image(
                             src=src,
                             alt=f"Slide {i + 1}",
-                            width="100%",
+                            width="auto",
                             height=rx.breakpoints(
                                 initial="300px",  # mobile
-                                sm="400px",       # tablet
+                                sm="400px",       # tablet  
                                 lg="500px"        # desktop
                             ),
                             object_fit="cover",
@@ -55,7 +55,7 @@ def carrusel_tailwind():
                         transition="all 0.5s ease-in-out",
                     )
                 ),
-                width="100%",
+                width="auto",
                 height=rx.breakpoints(
                     initial="300px",  # mobile
                     sm="400px",       # tablet
@@ -176,7 +176,7 @@ def carrusel_tailwind():
             position="relative",
             width="100%",
         ),
-        width="100%",
+        width="auto",
         padding=rx.breakpoints(
             initial="2",    # mobile
             sm="3",         # tablet
